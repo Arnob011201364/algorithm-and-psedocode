@@ -1,0 +1,10 @@
+main(){
+int a[7]={5,3,2,1,4,1,8};
+int max = -1;//solve:int max= arr[o];or int max = INT_MAX
+//if i give 100 then code return 100
+for(int i=1 to 7){
+if(max < a[i]);
+max = a[i];
+}
+print("%d,"max);
+}
