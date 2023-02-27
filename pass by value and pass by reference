@@ -1,0 +1,31 @@
+public class Main{
+void fun(int a[]){
+int temp = x[0];
+   a[0]=a[1];
+   a[1]= temp;
+
+}
+public static void swap(int a , int b){
+    int temp = a;
+    a = b;
+    b = temp;
+    System.out.println("a : "+a);
+    System.out.println("b : "+b);
+    System.out.println("temp : "+temp);
+}
+	public static void main(String[] args) {
+	    int a = 10;
+	    int b = 5;
+	    swap(a,b);
+      //it is passing the copy of a and b to swap function.
+	    //since a and created inside main function so this value can not change by other method 
+	    System.out.println("a : "+a);
+        System.out.println("b : "+b);
+  //pass by reference     
+        int a[2]={1,2};
+        System.out.println(a[0],a[1]);
+        fuc(a);
+        System.out.println(a[0],a[1]);
+	}
+
+}
