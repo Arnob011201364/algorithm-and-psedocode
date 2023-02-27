@@ -1,0 +1,9 @@
+int a[50]={5,3,2,1,4};
+cout<<"enter position");
+cin>>posm;
+for(i=pos;i<5,i++){
+ a[i]=a[i+1];
+}
+for(i=0;i<4;i++){
+print(a[i]);
+}
